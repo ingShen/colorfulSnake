@@ -40,7 +40,7 @@ function Snake(){
 					colors.push(s);
 				}
 				var hex = colors.join().replace(/,/g,'');
-				console.log(hex);
+				// console.log(hex);
 				for(var i=1;i<arr.length;i++){
 					// rows[arr[i][0]].cells[arr[i][1]].style.cssText='background: skyblue; border: 2px solid 	skyblue;';
 					rows[arr[i-(i-1)][0]].cells[arr[i-(i-1)][1]].style.backgroundColor = "#"+hex+"";
