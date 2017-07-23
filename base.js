@@ -147,10 +147,6 @@ function Snake(){
 			}else{
 				arguments.callee;
 			}
-		},
-		// 操作
-		bindControl:function(){
-
 		}
 	}
 var Snake = new Snake();
